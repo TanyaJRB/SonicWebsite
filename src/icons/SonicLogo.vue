@@ -1,0 +1,3 @@
+<template>
+    <div class="a-b-Xa-La" style="padding-bottom: 100%;"><div class="a-b-Xa-La-kg"></div><div class="a-b-Xa-La-mf-x-j"><h2 class="a-b-Xa-La-mf-D" tabindex="0">Page 1 of 1</h2></div><div class="a-b-Xa-wxLEad-pc" style="display: none;"></div><div class="a-b-s-r-Ln a-b-s-r-Oa"></div><div class="a-b-s-r-Ln a-b-s-r-nb"></div><div class="a-b-s-r-Ln a-b-s-r-nb"></div><div class="a-b-s-r-Ln a-b-Xa-ef-Oa"></div><div class="a-b-dZssN-qkEl5b"></div><div class="a-b-dZssN-G0KQoc"></div><img src="blob:https://drive.google.com/5c6c3e8f-ef96-4246-8090-270f0419c88e" class="a-b-Xa-La-Ua" alt="Page 1 of 1" aria-hidden="true" style="opacity: 1;"></div>
+</template>
