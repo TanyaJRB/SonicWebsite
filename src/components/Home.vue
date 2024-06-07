@@ -27,7 +27,7 @@ onMounted(() => {
       <HomePage v-if="selectedTab == SubPages.Home"/>
       <Culture v-if="selectedTab == SubPages.Culture"/>
       <BurningMan v-if="selectedTab == SubPages.BurningMan"/>
-      <Campers v-if="selectedTab == SubPages.Media"/>
+      <Campers v-if="selectedTab == SubPages.Campers"/>
       <Media v-if="selectedTab == SubPages.Media"/>
   </div>
 
