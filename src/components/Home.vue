@@ -4,6 +4,9 @@ import { useNavigation } from '../composables/use.navigation';
 import { SubPages } from '../composables/use.navigation';
 import { onMounted } from 'vue';
 import Culture from './Culture.vue';
+import BurningMan from './BurningMan.vue';
+import Media from './Media.vue';
+import Campers from './Campers.vue';
 
 const { selectedTab } = useNavigation();
 
@@ -23,6 +26,9 @@ onMounted(() => {
 
       <HomePage v-if="selectedTab == SubPages.Home"/>
       <Culture v-if="selectedTab == SubPages.Culture"/>
+      <BurningMan v-if="selectedTab == SubPages.BurningMan"/>
+      <Campers v-if="selectedTab == SubPages.Media"/>
+      <Media v-if="selectedTab == SubPages.Media"/>
   </div>
 
 </template>
