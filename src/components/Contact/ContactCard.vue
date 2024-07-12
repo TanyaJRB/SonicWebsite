@@ -3,6 +3,8 @@ interface ContactCardProps {
   cardTitle: string;
   contactName: string;
   contactEmail: string;
+  contactSocial?: string;
+  contactSocialLink?: string;
 }
 const props = defineProps<ContactCardProps>();
 </script>
@@ -14,7 +16,7 @@ const props = defineProps<ContactCardProps>();
     <div
       class="mx-auto flex h-12 w-12 md:h-24 md:w-24 -translate-y-6 md:-translate-y-10 transform items-center justify-center rounded-full bg-white shadow-lg"
     >
-      <slot name="icon"></slot>
+      <a :href="'mailto:' + contactEmail"><slot name="icon"> </slot></a>
     </div>
     <h1
       class="text-darken mb-4 md:mb-8 text-md md:text-xl font-medium lg:px-14 text-indigo-900"
@@ -22,11 +24,14 @@ const props = defineProps<ContactCardProps>();
       {{ cardTitle }}
     </h1>
     <div class="px-4 text-gray-500">
-      <div class="font-bold text-sm md:text-md">
+      <div class="font-bold text-sm md:text-md lg:text-lg">
         {{ contactName }}
       </div>
       <div class="text-xs md:text-sm text-center">
         <a :href="'mailto:' + contactEmail">{{ contactEmail }}</a>
+      </div>
+      <div class="text-xs md:text-sm text-center">
+        <a :href="contactSocialLink">{{ contactSocial }}</a>
       </div>
     </div>
   </div>

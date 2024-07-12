@@ -5,17 +5,15 @@ import DjIcon from "../../icons/DjIcon.vue";
 import TentIcon from "../../icons/TentIcon.vue";
 import CircusIcon from "../../icons/CircusIcon.vue";
 import PaintIcon from "../../icons/PaintIcon.vue";
-import SocialMediaButton from "./SocialMediaButton.vue";
-import SoundCloudIcon from "../../icons/SoundCloudIcon.vue";
-import InstagramIcon from "../../icons/InstagramIcon.vue";
-import FacebookIcon from "../../icons/FacebookIcon.vue";
 import SocialMediaBar from "./SocialMediaBar.vue";
 </script>
 
 <template>
   <SubPage>
-    <div class="h-full w-4/5 m-auto flex items-center flex flex-col">
-      <SocialMediaBar />
+    <div class="w-4/5 m-auto flex items-center flex flex-col">
+      <SocialMediaBar
+        class="h-1/3 w-1/3 items-center bg-slate-900/60 p-10 rounded-full"
+      />
       <div
         class="flex flex-col gap-y-12 md:flex-row md:gap-x-4 w-full justify-center"
       >
@@ -23,6 +21,8 @@ import SocialMediaBar from "./SocialMediaBar.vue";
           cardTitle="Camp with us"
           contactName="Hyacinth"
           contactEmail="nomadicwildflower@gmail.com"
+          contactSocial="Hyacinth Belcher"
+          contactSocialLink="https://www.facebook.com/hyacinth.belcher"
         >
           <template #icon><TentIcon class="h-6 w-6 md:h-12 md:w-12" /></template
         ></ContactCard>
@@ -37,6 +37,8 @@ import SocialMediaBar from "./SocialMediaBar.vue";
           cardTitle="Performers"
           contactName="Tanya"
           contactEmail="tanya.rashid@hotmail.com"
+          contactSocial="@tanyajazmine"
+          contactSocialLink="https://www.instagram.com/tanyajazmine/?hl=en#"
         >
           <template #icon
             ><CircusIcon class="h-6 w-6 md:h-12 md:w-12" /></template
@@ -45,6 +47,8 @@ import SocialMediaBar from "./SocialMediaBar.vue";
           cardTitle="Artists"
           contactName="David"
           contactEmail="davidjordan05@gmail.com"
+          contactSocial="@third_eye_gemineye"
+          contactSocialLink="https://www.instagram.com/third_eye_gemineye/?hl=en#"
         >
           <template #icon
             ><PaintIcon class="h-6 w-6 md:h-12 md:w-12" /></template
