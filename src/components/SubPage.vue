@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import NavBar from "./NavBar.vue";
 import SonicLogo from "../icons/SonicLogo.vue";
+import SocialMediaBar from "./Contact/SocialMediaBar.vue";
+
 // interface NavButtonProps {
 //   buttonText?: string;
 // }
@@ -19,11 +21,10 @@ import SonicLogo from "../icons/SonicLogo.vue";
 
 <template>
   <div class="flex flex-col relative min-h-screen">
-    <div
-      class="w-screen h-1/8 flex flex-row justify-between border-y border-slate-500"
-    >
+    <div class="w-screen flex flex-row justify-between bg-slate-200/10">
       <SonicLogo class="m-1 w-[8%]" />
-      <NavBar class="items-center md:text-md lg:text-lg font-mono mr-10" />
+      <NavBar class="items-center md:text-md lg:text-lg" />
+      <SocialMediaBar class="mr-4" />
     </div>
     <slot />
   </div>

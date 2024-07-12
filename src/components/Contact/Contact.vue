@@ -9,26 +9,13 @@ import SocialMediaButton from "./SocialMediaButton.vue";
 import SoundCloudIcon from "../../icons/SoundCloudIcon.vue";
 import InstagramIcon from "../../icons/InstagramIcon.vue";
 import FacebookIcon from "../../icons/FacebookIcon.vue";
+import SocialMediaBar from "./SocialMediaBar.vue";
 </script>
 
 <template>
   <SubPage>
     <div class="h-full w-4/5 m-auto flex items-center flex flex-col">
-      <div class="my-12 flex flex-row gap-x-5 justify-center">
-        <SocialMediaButton
-          link="https://www.instagram.com/sonicsoultribe/?hl=en#"
-          ><template #icon
-            ><InstagramIcon class="w-10 h-10" fill="currentColor" /></template
-        ></SocialMediaButton>
-        <SocialMediaButton link="https://www.facebook.com/SonicSoulTribes/"
-          ><template #icon
-            ><FacebookIcon class="w-10 h-10" fill="currentColor" /></template
-        ></SocialMediaButton>
-        <SocialMediaButton link="https://on.soundcloud.com/Wk81iFf8pMK6TU4x9"
-          ><template #icon
-            ><SoundCloudIcon class="w-10 h-10" fill="currentColor" /></template
-        ></SocialMediaButton>
-      </div>
+      <SocialMediaBar />
       <div
         class="flex flex-col gap-y-12 md:flex-row md:gap-x-4 w-full justify-center"
       >
