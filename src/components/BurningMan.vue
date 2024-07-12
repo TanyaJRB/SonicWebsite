@@ -22,7 +22,7 @@ import BurningManIcon from "../icons/BurningManIcon.vue";
         This year we will be at 2 & Baffle for our smaller year.
       </div>
       <img
-        class="w-1/3 m-2 mb-6"
+        class="w-1/3 m-2 mb-6 rounded-md"
         alt="main background image"
         src="/src/assets/2023 map.png"
       />
@@ -36,21 +36,15 @@ import BurningManIcon from "../icons/BurningManIcon.vue";
       </div>
 
       <img
-        class="w-1/6 m-2 mb-6"
+        class="w-1/6 m-2 mb-6 rounded-md"
         alt="main background image"
         src="/src/assets/moop map.jpg"
       />
       <div class="text-xl m-4">2023 Campers</div>
       <img
-        class="w-2/3 m-2 mb-6"
+        class="w-2/3 m-2 mb-6 rounded-xl"
         alt="main background image"
         src="/src/assets/2023 crew.jpg"
-      />
-      <div class="text-xl m-4">Daytime</div>
-      <img
-        class="w-1/3 m-2 mb-6"
-        alt="main background image"
-        src="/src/assets/sonic daytime.jpg"
       />
     </div>
   </SubPage>
