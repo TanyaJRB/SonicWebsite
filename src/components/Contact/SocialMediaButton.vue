@@ -2,7 +2,7 @@
 interface SocialMediaButtonProps {
   link: string;
 }
-const props = defineProps<SocialMediaButtonProps>();
+defineProps<SocialMediaButtonProps>();
 </script>
 
 <template>

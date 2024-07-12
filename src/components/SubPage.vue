@@ -2,21 +2,6 @@
 import NavBar from "./NavBar.vue";
 import SonicLogo from "../icons/SonicLogo.vue";
 import SocialMediaBar from "./Contact/SocialMediaBar.vue";
-
-// interface NavButtonProps {
-//   buttonText?: string;
-// }
-
-// interface NavButtonEvents {
-//   (eventName: 'click', event: MouseEvent): void;
-// }
-
-// const props = defineProps<NavButtonProps>();
-// const emit = defineEmits<NavButtonEvents>();
-
-// function handleClick(event: MouseEvent): void {
-//   emit('click', event);
-// }
 </script>
 
 <template>
