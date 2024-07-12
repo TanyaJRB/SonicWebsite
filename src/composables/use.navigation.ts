@@ -5,7 +5,7 @@ export enum SubPages {
     Home = "Home",
     Culture = "Culture",
     BurningMan = "Burning Man",
-    Campers = "Campers",
+    Contact = "Contact",
     Media = "Media"
 };
 
