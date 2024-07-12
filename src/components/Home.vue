@@ -15,23 +15,6 @@ onMounted(() => {
 });
 </script>
 
-<!-- <template>
-  <div
-    class="relative min-h-screen w-screen bg-gradient-to-tr from-red-500 to-purple-400"
-  >
-    <div
-      class="absolute inset-0 w-full h-full bg-cover bg-repeat"
-      :style="{ backgroundImage: 'url(/src/assets/background.jpg)' }"
-    ></div>
-    <div class="relative min-h-screen">
-      <HomePage v-if="selectedTab == SubPages.Home" />
-      <Culture v-if="selectedTab == SubPages.Culture" />
-      <BurningMan v-if="selectedTab == SubPages.BurningMan" />
-      <Contact v-if="selectedTab == SubPages.Contact" />
-      <Media v-if="selectedTab == SubPages.Media" />
-    </div>
-  </div>
-</template> -->
 <template>
   <div
     className="bg-gradient-to-tr from-red-500 to-purple-400 relative min-h-screen w-screen"
@@ -50,11 +33,3 @@ onMounted(() => {
     </div>
   </div>
 </template>
-
-<style>
-html,
-body {
-  height: 100%;
-  margin: 0;
-}
-</style>
